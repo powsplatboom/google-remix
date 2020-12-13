@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Google</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="visual_settings_advanced.css">
+    </head>
+    <body>
+        <img id = "small_logo" src ="Pictures/Google_Logo_small.PNG" alt = "Google Logo">
+        <div id = "top_right_items">
+            <div class = "collumn"><a class="text_link" href="main_page.html"><h5>Return to Main Page</h5></a></div>
+            <div class = "collumn" id=account_ui_buttons></div>
+        </div>
+        
+        <h3>Advanced Search</h3>
+        
+        <h4>Find pages with...</h4>
+        
+        <form action="https://google.com/search">
+            <div>
+                <h5>all these words:</h5>
+                <input type="text" name="as_q">
+                <div class= "word_box_single"><h6>Type the important words:<span style="font-family: monospace, Courier New, serif; margin-left: 15px">tricolor rat terrier</span>
+                </h6></div>
+            </div>
+            <div>
+                <h5>this exact word or phrase:</h5>
+                <input type="text" name="as_epq">
+                <div class= "word_box_single"><h6>Put exact words in quotes:<span style="font-family: monospace, Courier New, serif; margin-left: 15px">"rat terrier"</span>
+                    </h6></div>
+            </div>
+            <div>
+                <h5>any of these words:</h5>
+                <input type="text" name="as_oq">
+                <div class= "word_box_single"><h6>Type <span style="font-family: monospace, Courier New, serif">OR</span> between ther words you want:<span style="font-family: monospace, Courier New, serif; margin-left: 15px">miniature OR standard</span>
+                    </h6></div>
+            </div>
+            <div>
+                <h5>none of these words:</h5>
+                <input type="text" name="as_eq">
+                <div class= "word_box_double"><h6>Put a minus sign just before words you don't want:<br><span style="font-family: monospace, Courier New, serif">-rodent, -"Jack Russel"</span>
+                    </h6></div>
+            </div>
+            <input type = "submit" value = "Advanced Search">
+        </form>
+        
+    </body>
+</html>

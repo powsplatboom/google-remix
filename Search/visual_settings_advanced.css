@@ -1,0 +1,136 @@
+
+body{
+    background-color: white;
+    color: #202020;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+h3{
+    font-weight: 100;
+    font-size: 20px;
+    color: red;
+    margin-left:35px;
+    margin-bottom: 75px;
+}
+
+h4{
+    font-weight: 100;
+    margin-left:35px;
+}
+
+h5{
+    font-weight: 100;
+    display: inline-block;
+    margin-left:35px;
+    width: 175px;
+}
+
+div{
+    height: 40px;
+    position: relative;
+}
+
+
+div.word_box_single{
+    display: inline-block;
+    position: absolute;
+    width: 400px;
+    top: calc(50% - 15px);
+}
+
+div.word_box_double{
+    display: inline-block;
+    position: absolute;
+    width: 400px;
+    top: calc(50% - 11px):
+}
+
+h6{
+    font-weight: 100;
+    font-size: 11px;
+    line-height: 11px;
+    color: #505050;
+    display: inline-block;
+    text-align: left;
+    margin: 0px;
+    position: absolute;
+    top: 50%;
+}
+
+img{
+    vertical-align: middle;
+}
+
+#top_right_items{
+    text-align:right;
+    padding: 10px;
+}
+
+#account_ui_buttons{
+    width: 100px;
+    vertical-align: middle;
+    background-image: url(Pictures/Top%20right%20icons.PNG);
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+div.collumn{
+    display: inline-block;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+}
+
+input[type=text]{
+    width: 570px;   
+    height: 25px;
+    margin: 10px;
+    border: 1px solid #d3d3d3;
+    border-top: 1px solid #B8B8B8;
+    display: inline-block;
+}
+
+input[type=text]:focus{
+    border : 1px solid #DCDCDC;
+    outline-color: #6495ED;
+    
+}
+    
+input[type=submit]{
+    border : 1px solid #3079ED;
+    font-weight: 300;
+    font-size: 11px;
+    color: white;
+    letter-spacing: 0px;
+    background-color: #4888EE;
+    opacity : 1;
+    width : 125px;
+    height: 30px;
+    padding: 10px;
+    border-radius: 2px;
+    margin-left: 675px;
+    margin-top: 25px;
+}
+
+input[type=submit]:hover{
+    border : 1px solid #2F5BB7;
+    background-color: #3a7fed;
+    opacity : 1;
+    
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+a.text_link:hover{
+    opacity: 0.8;
+    text-decoration: underline;
+}
+
+#small_logo{
+    display:block;
+    position: absolute;
+}
